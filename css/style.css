@@ -1,11 +1,38 @@
-body {
+
+	body {
 	background-color:lightblue;
 }
 
+
 .svg-goodatfalling path:nth-child(8) {
-	position:absolute;
-	width: 700px;
-	margin-top: 250px;
+	position:fixed;
 
 }
 
+.svg-goodatfalling{
+
+	position:fixed;
+	fill: black;
+	opacity:1;
+	top:150px;
+  	min-width: 100%;
+  	min-height: 100%;
+
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#cliff {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.container {
+	position:fixed;
+}
+
+	video{
+		opacity: 50%;
+	}
