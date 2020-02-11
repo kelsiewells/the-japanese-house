@@ -136,13 +136,6 @@ a:active {
   color: #333;
 }
 
-.marquee {
-  margin:5px;
-  color:black;
-  font-family:sans-serif;
-  font-size:10px;
-  transform:translateX(-400px);
-}
 
 /* Style the video: 100% width and height to cover the entire window */
 #cliff {
