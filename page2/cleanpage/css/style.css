@@ -1,0 +1,79 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: white;
+  border: none;
+  padding: 100px;
+  font-size: 50px;
+  font-family:sans-serif;
+  text-align: center;
+}
+
+.ep-title {
+  background-color: white;
+  border: none;
+  padding-top: 225px;
+  padding-left:25px;
+  font-size: 50px;
+  font-family:sans-serif;
+  text-align: center;
+  font-color:#333;
+}
+
+.tracklist-title {
+  background-color: lightblue;
+  border: none;
+  padding-top:50px;
+   padding-left:50px;
+  font-size: 20px;
+  font-family:sans-serif;
+  text-align: center;
+}
+
+#tracklist-title {  
+  background-color: lightblue;
+  border: none;
+  padding:50px;
+  font-size: 15px;
+  font-family:sans-serif;
+  text-align: center;
+}
+
+.tracklist-songs {
+  background-color: lightblue;
+  border: none;
+  padding-top:30px;
+  padding-left: 50px;
+  font-size: 15px;
+  font-family:sans-serif;
+  text-align: left;
+}
+
+.about {
+  background-color: lightblue;
+  text-align: left;
+}
+
+#about {
+	font-family:sans-serif;
+	margin-top:-30px;
+	margin-left:200px;
+	margin-right:200px;
+}
+
+#marquee {
+  color:black;
+  font-family:sans-serif;
+  font-size:10px;
+  transform:translateX();
+  overflow-x: marquee-line;
+  scroll-behavior: smooth;
+	marquee-style: scroll;
+	marquee-speed: slow;
+}
